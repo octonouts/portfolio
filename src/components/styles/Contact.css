@@ -1,0 +1,11 @@
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  outline: solid 1px var(--color-lighter-blue);
+}

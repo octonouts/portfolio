@@ -1,0 +1,22 @@
+.card {
+  border-style: solid;
+  border-color: #014769;
+  width: 18rem;
+  }
+  
+.card-header {
+  text-align: center;
+  background-color: #4682b4;
+  color: white;
+  }
+  
+.card-body {
+  margin: auto;
+  padding-left: 0%;
+  padding-right: 0%;
+  }
+
+.btn {
+  margin-left: 15px;
+  margin-right: 15px;
+}
