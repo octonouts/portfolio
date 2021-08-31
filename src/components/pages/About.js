@@ -4,7 +4,7 @@ import '../styles/About.css'
 
 function About() {
   return (
-      <div>
+      <>
           <img className="center" src={Daryl} alt="Daryl Nauman" />
 
           <section>
@@ -22,7 +22,7 @@ function About() {
                   lives. I am based out of Burlington, Ontario.
               </p>
           </section>
-      </div>
+      </>
   );
 }
 
