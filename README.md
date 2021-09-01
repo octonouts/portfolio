@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Porfolio
+![MIT License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+[Description](#description) <br/>
+[Key Features](#key-features) <br/>
+[Technology Used](#technology-used) <br/>
+[Links](#links) <br/>
+[Screenshots](#screenshots) <br/>
+[Questions](#questions) <br/>
+[License](#license) <br/>
 
-## Available Scripts
+## Description
+This was originally a homework assignment for the University of Toronto SCS Coding Boot Camp. This is my portfolio created using React. React is a popular JavaScript library for building user interfaces. This application is deployed on Heroku.
 
-In the project directory, you can run:
+## Key Features
+- This application is contained within a single-page
+- When a user clicks on a navigation item that section is presented without the page reloading and the navigation item is highlighted
+- Application has a mobile friendly, responsive, and clean design including a collapsing navigation bar
+- Portfolio projects are displayed through the use of a project component that is reused as the application maps through an array of projects
+- The application includes several React components such as a header, navigation bar, project card and footer
+- The styling is mainly managed through CSS files for each component and some Bootstrap
+- Contact page form (currently under revision) ensures the user enters a valid email address with the help of a regular expression
+- Contact page form (currently under revision) notifies the user that an input field is required if they enter and then leave it blank
+- The styling of items in the footer change on mouse over by the user
 
-### `npm start`
+## Technology Used
+- React
+- HTML, CSS, JavaScript
+- Bootstrap
+- NPM packages of note: react, react-router-dom
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Links
+- [GitHub repository](https://github.com/darylnauman/react-portfolio)
+- [Deployed application](https://darylnauman.heroku.com)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Screenshots
+### About Me Component Displayed
+![Screenshot of the About Me section.](./src/assets/images/react-portfolio-screenshot-01.png)
+### Portfolio Page and Project Components Displayed
+![Screenshot of the portfolio page and project components.](./src/assets/images/react-portfolio-screenshot-02.png)
 
-### `npm test`
+## Questions
+If you have any questions, please contact me (see my profile), I am happy to answer them.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This product is under the MIT License.
