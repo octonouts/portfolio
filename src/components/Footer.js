@@ -3,6 +3,8 @@ import './styles/Footer.css';
 
 function Footer() {
 
+  const year = new Date().getFullYear()
+
   return (
     <footer className="footer">
        <ul className="footer-list">
@@ -12,7 +14,7 @@ function Footer() {
         <li className="footer-item"><a href="https://github.com/darylnauman" rel="noreferrer" target="_blank">GitHub</a></li>
       </ul>
 
-      <p className="footer-copyright">Created by Daryl Nauman, &#169; 2021</p>
+      <p className="footer-copyright">Created by Daryl Nauman, &#169; {year}</p>
 
     </footer>
   );
