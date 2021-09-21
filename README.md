@@ -32,7 +32,7 @@ This was originally a homework assignment for the University of Toronto SCS Codi
 
 ## Links
 - [GitHub repository](https://github.com/darylnauman/react-portfolio)
-- [Deployed application](https://darylnauman.heroku.com)
+- [Deployed application](https://darylnauman.herokuapp.com/)
 
 ## Screenshots
 ### About Me Component Displayed
