@@ -52,6 +52,13 @@ const projects = [
     repository: "https://github.com/darylnauman/Code_Refactor",
     deployed: "https://darylnauman.github.io/Code_Refactor/"
   },
+  {
+    title: "Spacestagram",
+    image: Images.spacestagramScreenshot,
+    alt: "screenshot of main page with cards of space images and descriptions",
+    repository: "https://github.com/darylnauman/spacestagram/",
+    deployed: "https://darylnauman.github.io/spacestagram/"
+  },
 ];
 
 function Portfolio() {

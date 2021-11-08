@@ -9,4 +9,4 @@ import mongodb from './mongodb.svg'
 import react from './react.svg'
 import graphql from './graphql.svg'
 
-export default {html, css, javascript, jquery, bootstrap, node, mysql, mongodb, react, graphql }
+export default { html, css, javascript, jquery, bootstrap, node, mysql, mongodb, react, graphql }
