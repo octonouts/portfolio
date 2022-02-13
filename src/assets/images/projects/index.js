@@ -7,6 +7,7 @@ import techBlogScreenshot from "./tech-blog-screenshot.png";
 import findMyCoderScreenshot from "./find-my-coder-screenshot.png";
 import employeeTrackerScreenshot from "./employee-tracker-screenshot.png";
 import spacestagramScreenshot from "./spacestagram-screenshot.png";
+import tokenTrainScreenshot from "./token-train-screenshot.png";
 
 export default {
     filmDimensionScreenshot,
@@ -18,4 +19,5 @@ export default {
     findMyCoderScreenshot,
     employeeTrackerScreenshot,
     spacestagramScreenshot,
+    tokenTrainScreenshot
 };

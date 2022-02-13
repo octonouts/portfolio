@@ -4,6 +4,13 @@ import Images from '../../assets/images/projects';
 
 const projects = [
   {
+    title: "Token Train: Your station for all things crypto and NFT",
+    image: Images.tokenTrainScreenshot,
+    alt: "screenshot of Token Train website's resource page",
+    repository: "https://github.com/chingu-voyages/v36-geckos-team-07",
+    deployed: "https://tokentrain.netlify.app/"
+  },
+  {
     title: "Plan Your Trip",
     image: Images.planYourTripScreenshot,
     alt: "screenshot of website with navigation bar",
@@ -75,9 +82,3 @@ function Portfolio() {
 }
 
 export default Portfolio;
-
-  // title: "Professional Portfolio",
-  // image: Images.portfolioPageScreenshot,
-  // alt: "screenshot of portfolio website",
-  // repository: "https://github.com/darylnauman/portfolio-page",
-  // deployed: "https://darylnauman.github.io/portfolio-page/"

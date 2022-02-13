@@ -5,7 +5,7 @@ import './styles/Project.css';
 function Project(props) {
 
   return (
-    <div className="card m-2">
+    <div className="card m-3">
 
       <h5 className="card-header">{props.title}</h5>
 

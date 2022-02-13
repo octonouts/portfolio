@@ -2,7 +2,13 @@
   border-style: solid;
   border-color: #014769;
   width: 18rem;
+  transition: all 0.2s ease-in;
   }
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 10px 10px lightgray;
+}
   
 .card-header {
   text-align: center;
