@@ -27,7 +27,7 @@ jobs:
           node-version: 14.x
       - name: Prepare project environment
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
-        run: npm ci
+        run: npm install
       - name: Build project
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         run: npm run build
